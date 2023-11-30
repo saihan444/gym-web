@@ -1,0 +1,1331 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+  nav{
+    position: fixed;
+    background: white;
+    height: 90px;
+    width: 100%;
+  }
+  #check{
+    display: none;
+  }
+  .hamburger{
+    display: none;
+  }
+  label.header{
+    color: black;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+  }
+  nav ul{
+    float: right;
+    margin-right: 17px;
+  }
+  nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+  }
+  nav ul li a{
+    color: rgb(36, 31, 31);
+    font-family: sans-serif;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 5px;
+    text-transform: uppercase;
+  }
+ a:hover{ 
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255);
+    transition: .5s;
+  } 
+  .checkbtn{
+    font-size: 30px;
+    color: #221e1e;
+    float: right;
+    line-height:80px;
+    margin-right:5px;
+    cursor: pointer;
+    display: none;
+  }
+  #check{
+    display: none;
+  }
+  
+  
+.color{ 
+    
+    background-image: url(img/istockphoto-1287504319-170667a.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+}
+
+#header{
+    font-size: 25px;
+    margin-left: 10px;
+    width: 15%;
+}
+.heading{
+    height: 100vh;
+    align-items: center;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+.heading p{
+    width: 80%;
+    padding-left:300px;
+    padding-top: 30px;
+}
+
+h1{
+    font-size: 55px;
+    font-weight: 100px;
+     padding-top: 300px;
+      font-family: sans-serif;
+    }
+h2{
+    font-size: 20px;
+    
+}
+button{
+    height: 50px;
+    width: 20%;
+    color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top:15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgba(97, 89, 78, 0.301);
+}
+.gymcontainer1{
+    text-align: center;
+    margin-bottom:30px;
+}
+h3{
+    font-size: 40px;
+    color:rgba(165, 42, 42, 0.781);
+    margin-right: 16px;
+}
+
+h4{
+ font-family: sans-serif;
+ color: rgba(0, 0, 0, 0.637);
+}
+
+.gymcontainer1 p{
+    width: 80%;
+    padding-left: 210px; 
+    margin-top: 25px;
+    color: grey;
+}
+ .logo img{
+   width: 50px;
+   /* margin-top: 120px; */
+   text-align: center;
+   size: 10px;
+}
+.logo{
+    
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    padding-top: 6px;
+    border: px solid rgb(19, 17, 17); 
+    box-sizing: border-box;
+    padding-right: 4px;
+}
+.logo1:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px silver;
+ }
+ .logo2:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px silver;
+ }.logo3:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px silver;
+ }
+ .logo4:hover{
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px silver;
+ } 
+
+ #L1{
+    font-size: 15PX;
+    color:#989898;
+}
+ .background img{
+    width: 100%;
+    margin-top:50px;
+ }
+.parallax {
+    margin-top: 17px;
+  
+  background-image: url("background\ image.jpg");
+   min-height: 300px;
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax{
+    text-align: center ;
+    align-items: center;
+    margin-top: 12px;
+}
+
+#get{
+    margin-bottom: 12px;
+    font-family: sans-serif;
+    color: rgb(255, 226, 226);
+}
+h6{
+    margin-bottom: 12px;
+    font-size: 50px;
+    padding-top: 80px;
+    font-family: sans-serif;
+    color: rgb(255, 226, 226);
+}
+.parallax p{
+    font-family: sans-serif;
+    font-size: 1.25rem;
+    font-weight:5;
+    width: 80%;
+    padding-left:200px;
+    padding-bottom: 12px;
+       color: white
+}
+.ourclass{
+ text-align: center;
+}
+#top{
+    font-family: sans-serif;
+    color:rgba(165, 42, 42, 0.781);
+    margin-left: -37px;
+}
+.ourclass p{
+    color: grey;
+    margin-bottom: 12px;
+    margin-top: 20px;
+    width: 80%;
+    padding-left: 200px;
+}
+#fit{
+    color:#989898;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+.fitnessclass1{
+    font-family: sans-serif;
+     /* box-shadow: 1px  1px 1px 1px silver; */
+     /* margin-bottom: 29px; */
+    height: 10vh;
+    width: 400px;
+    /* padding-left: 120px;    */
+    text-align: center;
+
+}
+.fitnessclass2{
+    font-family: sans-serif;
+      /* box-shadow: 1px  1px 1px 1px  silver;  */
+      margin-bottom: 20px;
+     height: 10vh;
+    width: 500px;
+    padding-left: 120px; 
+} 
+.fitnessclass3{
+    font-family: sans-serif;
+    /* box-shadow: 1px  1px 1px 1px  silver; */
+    margin-bottom: 20px;
+    height: 10vh;
+    width: 500px;
+    padding-left: 120px; 
+}
+.fitnessclass4{
+    font-family: sans-serif;
+    /* box-shadow: 1px  1px 1px 1px  silver; */
+    height: 10vh;
+    width: 502px;
+    padding-left: 120px; 
+    margin-bottom: 1200px;
+}
+
+.fitnessclass{
+        margin-top: 25px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    
+}
+.box1{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+      display: flex;
+      margin-bottom: 12px;
+}
+.box2{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display:flex ;
+}
+.box3{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.box4{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.box5{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.box1 img{
+    width: 90px;
+    height: 90px;
+    
+    top: 0;
+    bottom: 0;
+}
+.box2 img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+}
+.box3 img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+ }
+.box4 img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+}
+.box5 img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+}
+.boximg{
+    height: 90px;
+}
+.content{
+    padding-left: 12px;
+    padding-top: 25px;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover{
+    background-color: rgba(0, 0, 0, 0.26);
+}
+.parallaximg1{
+    margin-top: 17px;
+   background-image: url(img/backimg.jpg);
+   height: 500px;
+   background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallaximg1{
+    text-align: center;
+    color: white;
+}
+#get1{
+    font-size: 60px;
+    font-family: sans-serif;
+    margin-top: 40px;
+    padding-top: 90px;
+    font-weight: bold;
+}
+.parallaximg1 p{
+    font-weight: 500;
+    font-family: sans-serif;
+    margin-top: 15px;
+     font-family: sans-serif;
+     width: 80%;
+        padding-left:200px;
+    }
+
+.fitness {
+    text-align: center;
+}
+.schedule p{
+    margin-top:20px;
+    color:#989898;
+    width: 80%;
+    padding-left: 200px;
+}
+.days ul{
+    margin-top: 12px;
+    display: flex;
+    cursor: pointer;
+    flex-direction: row;
+    justify-content:space-evenly ;
+   list-style: none;
+   box-shadow: 1px 1px  1px 1px #EBE3D5;
+    color: #989898;
+
+}
+.sunday{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+      display: flex;
+      margin-bottom: 12px;
+}
+.monday{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display:flex ;
+}
+.tuesday{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.wednessday{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.thursday{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display:flex;
+}
+.friday{
+    box-shadow: 1px 1px 1px 1px silver;
+    width: 400px;
+    margin-bottom: 12px;
+    display: flex;
+}
+.sunday img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+}
+.monday img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+}
+.tuesday img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+ 
+}
+.wednessday img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+   
+}
+.thursday img{
+    width: 90px;
+    height: 90px;
+    top: 0;
+    bottom: 0;
+}
+.friday img{
+    height: 90px;
+    width: 90px;
+    top: 0;
+    bottom: 0;
+}
+.content{
+    padding-left: 12px;
+    padding-top: 25px;
+}
+.scheduledays{
+    margin-top: 60px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+span{
+    font-size: 12px;
+    font-family: sans-serif;
+}
+/* small{
+    /* color: rgba(0, 0, 0, 0.39); */
+
+.monday:hover,.tuesday:hover,.wednessday:hover,.thursday:hover,.friday:hover,.sunday:hover{
+    background-color: rgba(0, 0, 0, 0.164);
+}
+.scheduletrainer{
+    margin-top: 30px;
+    text-align: center;
+}
+.scheduletrainer p{
+    color:#989898;
+    width: 80%;
+    padding-left: 200px;
+
+}
+#touch{
+    margin-top: 12px;
+}
+/* .trainer img{
+  width:100px;
+  border-radius:500px;
+} */
+.coach{
+    display: flex;
+    width: 90%;
+    margin: 12px;
+    margin-left: 65px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.coach p{
+    color: grey;
+}
+
+.coach .trainer-img {
+    width: 25%
+}
+.coach .trainer-img img {
+    width: 25%;
+    border-radius: 50px;
+    margin-left:40px;
+}
+.trainer-img img:hover{
+    transform: scale(120%);
+    transition: all 0.5s ease;
+}
+.coach .trainer-img p{
+    text-align: center;
+    width: 200px;
+}
+h5{
+    margin-left:40px;   
+}
+
+.para{
+    display: flex;
+    justify-content: space-between;
+}
+.contact{
+    text-align: center;
+    
+}
+.contact p{
+    color: rgba(128, 128, 128, 0.753);
+}
+.contactus{
+    
+    background-color: #98989860;
+}
+
+.form {
+    margin-top: 5%;
+    margin-left: px;
+    padding-left: 80px;
+    
+}
+.name{
+    margin-bottom: 12px;
+    border-radius: 25px;
+}
+.lastname{
+    margin-bottom: 12px;
+}
+.email{
+    margin-bottom: 12px;
+}
+.phone{
+    margin-bottom: 12px;    
+}
+
+.textarea{
+    margin-bottom: 12px;
+    width:00px;
+}
+
+#message{
+    background-color: #AF2655;
+    width: 20%;
+    height: 7vh;
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: 15px;
+    background-color: #615f5f5e;
+}
+.foot{
+    
+    display: flex;
+    justify-content:space-between;
+}
+footer p{
+font-family: sans-serif;
+width: 250px;
+padding-left: 12px;
+}
+.link p{
+    font-family: sans-serif;
+}
+#linkpage{
+    color: #AF2655; 
+    
+}
+#abt{
+    color: #AF2655;
+    margin-top: 70px;
+    margin-left: 12px;
+}
+.copyrights{
+    font-family: sans-serif;
+    text-align: center;
+}
+#copy{
+    color: #5e4949;
+}
+.copyrights p{
+    margin-top: 15px;
+    margin-left: 500px;
+    font-size: 13px;
+}
+#message{
+    cursor: pointer;
+}
+.form input{
+    height: 8vh;
+    border: none;
+    width: 50%;
+    padding-left: 25px;
+}
+#text{
+    width:630px;
+        
+}
+
+.foot p{
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.445);
+}
+          /* Responsive */
+
+
+ @media  (max-width:1100px){
+    .nav-bar{
+        padding-left: 60px;
+        font-size: 13px;}
+        header {
+         padding: 0px 65px;
+      }
+      #text{
+        width: 507px;
+      }
+      .copyrights p {
+         margin-left: 389px;
+        font-size: 13px;
+    }
+}
+   
+     
+@media(max-width:1050px){
+    .nav-bar {
+        padding-left:80px;
+    }
+    .logo {
+        font-size: 14px;
+     }
+     #L1 {
+        font-size: 14px;
+        width: 100%;
+    }
+    #text{
+        width: 490px
+    }
+}
+@media(max-width:1000px){
+ #text{
+    width:515px
+ }
+ #text {
+    width: 457px;
+}
+}
+@media(max-width:950px){
+    .logo {
+        font-size: 14px;
+        display: flex;
+        flex-direction:column;
+    }
+    .logo1,.logo2,.logo3,.logo4,.logo5,.logo6{
+        margin-bottom: 25px;
+    }
+    .logo:hover{
+      align-items: center;
+    }
+    .copyrights p {
+        margin-left: 26%;
+    }
+    #text {
+        width: 435px;
+    }
+    label.header{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+@media(max-width:900px){
+    .coach .trainer-img img {
+         margin-left: 59px;
+        }
+        h5 {
+            margin-left: 47px;
+        }
+         #text {
+          width: 409px;
+         }
+         .gymcontainer1 p {
+            width: 800px;
+            padding-left: 135px;
+            margin-top: 25px;
+            color: grey;
+        }
+}
+@media(max-width:850px){
+    
+    #lu{
+      display: none;
+    }
+    #check:checked ¬ #lu{
+        left: 0px;
+    } 
+    .checkbtn{
+        display: block;
+        position: fixed;
+        top: .5rem;
+        right: 1rem;
+        z-index: 9999;
+    }
+
+    .hamburger{
+        display: block;
+        flex-direction: column;
+        position:absolute;
+        width: 50%;
+        height: 89vh;
+        background-color: #222222;
+        top: 67px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;        
+    }
+
+    .hamburger ul li{
+        
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+    }
+
+    .hamburger ul li a{
+        padding: 5px;
+        margin: 10px;
+        border-radius: 4px;
+        font-size: 1.4rem;
+        font-weight: 500;
+        color: white;
+        text-decoration: none;
+    }
+
+    .hamburger ul li a:hover{
+        background-color: #4A55A2;  
+    }
+
+    #check:checked ~ .hamburger{
+        left: 0;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .heading p {
+       padding-left: 250px;
+    }
+    .gymcontainer1 p {
+        padding-left: 65px;
+    }
+    .parallax p {
+        padding-left: 160px;
+    }
+    .ourclass p {
+        padding-left: 163px;
+    }
+    .schedule p {
+        padding-left: 165px;
+    }
+    .coach {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 20px;
+        margin-top: 60px;
+         margin-left: 65px;
+    }
+    .coach .trainer-img {
+         margin-bottom: 30px;
+    }
+    .coach .trainer-img img {
+        margin-left: 80px;
+    }
+    h5 {
+        margin-left: 64px;
+    }
+    #text {
+        width: 386px;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    a:hover .active{
+        background: none;
+        color: #0082e6;
+        left: 0;
+    }
+    .coach .trainer-img img {
+        margin-left: 59px;
+        width: 93px;
+        margin-bottom: 12px;
+    }
+}
+@media(max-width:800px){
+    h1{
+        font-size: 45px;
+    }
+    .coach {
+       margin-left: 40px;
+    }
+    #text{
+        width: 359px;
+    }
+}
+@media (max-width: 750px){ 
+    
+.gymcontainer1 p {
+    padding-left: 123px;
+    width: 83%;
+  }
+  #text {
+    width: 334px;
+}
+.foot {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media(max-width:750px){
+    h1{
+        font-size: 40px;
+    }
+    h6{
+        font-size: 45px;
+    }
+ #get1{
+        font-size: 41px;
+    }
+    .heading p {
+        padding-left: 57px;
+        width: 88%;
+    }
+}
+@media(max-width:700px){
+    .parallaximg1 p {
+        font-weight: 500;
+        font-family: sans-serif;
+        margin-top: 15px;
+        font-family: sans-serif;
+        width: 80%;
+        padding-left: 137px;
+    }
+    #text {
+        width: 309px;
+    }
+    
+}
+@media(max-width:650px){#text {
+    width: 284px;
+    }
+    .ourclass p {
+        padding-left: 127px;
+    }
+    .schedule p {
+        padding-left: 138px;
+    }
+    .scheduletrainer p {
+        padding-left: 127px;
+    }
+    h5 {
+        margin-left: 55px;
+    }
+    .coach {
+        margin-left: 9px;
+    }
+    .form input {
+        height: 8vh;
+        border: none;
+        width: 81%;
+        padding-left: 25px;
+    }
+    #text {
+        width: 460px;
+    }
+}
+@media(max-width:600px){
+    #text {
+        width: 261px;
+    }
+    .ourclass p {
+        padding-left: 127px;
+    }
+    h5 {
+        margin-left: 40px;
+    }
+    .coach .trainer-img img {
+        margin-left: 36px;
+       }
+    .coach .trainer-img p {
+        text-align: center;
+        width: 180px;
+    }
+    .form input {
+        height: 8vh;
+        border: none;
+        width: 89%;
+        padding-left: 25px;
+    }#text 
+    {
+        width: 465px;
+    }
+}
+@media(max-width:550px){
+    h3 {
+        margin-top: 12px;
+        font-size: 29px;
+    }
+    h4 {
+        font-size: 11px;
+    }
+    #L1 {
+        font-size: 11px;
+        }
+        .parallax p {
+            font-size: 15px;
+            padding-left: 110px;
+        }
+        h6 {
+
+            font-size: 40px;
+        }
+        h1 {
+            padding-top: 172px;
+            font-size: 37px;
+        }
+        .schedule p {
+            padding-left: 114px;
+            font-size: 12px;
+        }
+        .ourclass p {
+            font-size: 12px;
+            padding-left: 110px;
+        }
+        .parallaximg1 p {
+            padding-left: 118px;
+        }
+        .coach .trainer-img p {
+            font-size: 14px;
+            width: 180px;
+        }
+        
+        h5 {
+            margin-left: 38px;
+        }
+        #text {
+            width: 387px;
+        } 
+        .scheduletrainer p {
+            padding-left: 127px;
+            font-size: 12px;
+        }
+        .color{ 
+    
+            background-image: url(img/istockphoto-1287504319-170667a.webp);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-attachment: fixed;
+            height:70vh;
+            width: 100%;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            bottom: 0px;
+        }
+        .form input {
+            height: 8vh;
+            border: none;
+            width: 83%;
+            padding-left: 25px;
+        }
+}
+@media(max-width:500px){
+    #message {
+        cursor: pointer;
+        width: 110px;
+    }
+    button {
+        height: 34px;
+        width: 21%;
+    }
+    .parallaximg1{
+        height: 300px;
+       }
+    #get1 {
+        padding-top: 24px;
+       }
+       h5 {
+        margin-left: 25px;
+    }
+    .coach .trainer-img img {
+        margin-left: 54px;
+    }
+    .scheduletrainer p {
+        padding-left: 91px;
+    }
+    .coach .trainer-img p {
+        font-size: 9px;
+        width: 144px;
+    }
+    .form input {
+        height: 8vh;
+        border: none;
+        width: 88%;
+        padding-left: 25px;
+    }
+    #text {
+        width: 367px;
+    }
+}
+@media(max-width:450px){
+    h1 {
+        padding-top: 144px;
+        font-size: 27px;
+    }
+    .heading p {
+        padding-left: 57px;
+        font-size: 15px;
+        width: 88%;
+    }
+    .ourclass p {
+        font-size: 12px;
+        padding-left: 81px;
+    }
+    .parallaximg1 p {
+        padding-left: 90px;
+    }
+    .schedule p {
+        padding-left: 81px;
+        font-size: 12px;
+    }
+    h5 {
+        margin-left: 9px;
+    }
+    .coach .trainer-img img {
+        margin-left: 40px;
+    }
+    
+    .gymcontainer1 p {
+        padding-left: 71px;
+        width: 83%;
+    }
+    .coach .trainer-img img {
+        margin-left: 33px;
+    }
+    .coach .trainer-img img {
+        margin-left: 3px;
+    }
+    #text {
+        width: 304px;
+        height: 97px;
+    }
+    #message {
+        background-color: #AF2655;
+        width: 26%;
+        height: 5vh;
+        margin-bottom: 10px;
+    }
+    .copyrights p {
+        margin-left: 14%;
+    }
+    .form input {
+        height: 8vh;
+        border: none;
+        width: 83%;
+        padding-left: 25px;
+    }.coach .trainer-img p {
+        font-size: 12px;
+        margin-left: 2px;
+        width: 105%;
+    }
+}
+@media(max-width:400px){
+    .coach .trainer-img p {
+        display: none;
+    }
+    #get {
+       font-size: 29px;
+        }
+    .box1 {
+        width: 350px;
+    }
+    .box2 {
+        width: 350px;
+    }
+    .box3 {
+        width: 350px;
+    }
+    .box4 {
+        width: 350px;
+    }
+    .box5 {
+        width: 350px;
+    }
+    .box1 {
+        width: 350px;
+    }
+    .sunday {
+       width: 320px;
+    }
+    .monday {
+       width: 320px;
+    }
+    .tuesday{
+       width: 320px;
+    }
+    .wednessday {
+       width: 320px;
+    }
+    .thursday {
+       width: 320px;
+    }
+    h5 {
+        margin-left:0px;
+    }
+    .coach .trainer-img p {
+        font-size: 9px;
+        width: 88%;
+    }
+    .coach .trainer-img img {
+        margin-left: -9px;
+    }
+    .coach .trainer-img p {
+    font-size: 15px;
+    width: 186%;
+}
+.coach .trainer-img p {
+    font-size: 15px;
+    margin-left: 65px;
+    width: 186%;
+}
+    #text {
+        width: 270px;
+        height: 87px;
+    }
+    .form input {
+        height: 8vh;
+        border: none;
+        width: 85%;
+        padding-left: 25px;
+    }
+    #message {
+        background-color: #AF2655;
+        width: 28%;
+        height: 5vh;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:350px){
+    h1 {
+        padding-top: 144px;
+        font-size: 24px;
+    }
+    .heading p {
+        padding-left: 57px;
+        font-size: 13px;
+        width: 88%;
+    }
+    h3 {
+        margin-top: 12px;
+        font-size: 15px;
+    }
+    .gymcontainer1 p {
+        font-size: 12px;
+       }
+       h6 {
+        font-size: 24px;
+    }
+    .parallax p {
+        font-size: 15px;
+        padding-left: 78px;
+    }
+    .box1 {
+        width: 283px;
+    }
+    .box2 {
+        width: 283px;
+    }
+    .box3 {
+        width: 283px;
+    }
+    .box4 {
+        width: 283px;
+    }
+    .box5 {
+        width: 283px;
+    }
+    .sunday{
+        width: 283px;
+    }
+    .monday {
+        width: 283px;
+    }
+    .tuesday{
+        width: 283px;
+    }
+    
+    .wednessday{
+        width: 283px;
+    }
+    .thursday {
+        width: 283px;
+    }
+    #get1 {
+        font-size: 32px;
+    }
+    .parallaximg1 p {
+        padding-left: 90px;
+        font-size: 13px;
+    }
+    #text {
+        width: 230px;
+        height: 87px;
+    }
+    .copyrights p {
+        margin-left: 10%;
+    }
+    .contact p {
+        font-size: 12px;
+        color: rgba(128, 128, 128, 0.753);
+    }
+    }
+    @media(max-width:300px){
+        .box1 {
+            width: 230px;
+        }
+        .box2 {
+            width: 230px;
+        }
+        .box3 {
+            width: 230px;
+        }
+        .box4 {
+            width: 230px;
+        }
+        .box5 {
+            width: 230px;
+        }
+        .sunday {
+            width: 230px;
+        }
+        .monday {
+            width: 230px;
+        }
+        .tuesday {
+            width: 230px;
+        }
+        .wednessday {
+            width: 230px;
+        }
+        .thursday {
+            width: 230px;
+        }
+        #text {
+            width: 185px;
+            height: 87px;
+        }
+        #message {
+           width: 35%;
+            }
+            .copyrights p {
+                margin-left: 4%;
+            }
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+
